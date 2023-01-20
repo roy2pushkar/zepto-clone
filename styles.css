@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.nav-container{
+    display: flex;
+   
+    width: 100%;
+    height: 15vh;
+    
+    justify-content: space-around;
+    align-items: center;
+        background-color: #3c006b;
+    font-family: Poppins,sans-serif;
+    color: #fff;
+    font-size: 24px;
+}
+.nav{
+    display: flex;
+   
+    padding-right: 30px;
+    padding-left: 30px;
+    -webkit-transition: .2s;
+    transition: .2s;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    gap: 40px;
+    
+}
+.logo{
+    margin: 4rem;
+    margin-left: 8%;
+    height: 10vh;
+    width: 20vh;
+}
+.login-btn{
+    background-color: #3c006b;
+    width: 10%;
+    height: 2rem;
+    color: #fff;
+    box-shadow: 3px 3px #3c006b;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+a{
+     text-decoration: none;
+      color: #fff;
+}
+
+.main-heading{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+    font-family: Poppins,sans-serif;
+    color: #fff;
+    font-size: 30px;
+    line-height : 120%;
+    font-weight: 600;
+    text-align: center;
+     background-color: #3c006b;
+    
+}
+h1{
+    
+    font-weight: 600;
+   
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto ;
+    background-color:#3c006b;
+    padding: 10px;
+    column-gap: 30px;
+    
+}
+.box{
+    
+  background-color: #3c006b;
+  
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin: 30px;
+ 
+    
+
+}
+.banglore{
+    display: flex;
+}
+.deliverylist_header{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #fff;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #fff;
+    font-size: 20px;
+}
+.chennai{
+    display: flex;
+}
+.delhi{
+    display: flex;
+}
+.mumbai{
+    display: flex;
+}
+.gurgaon{
+    display: flex;
+}
+.gaziabad{
+    display: flex;
+}
+.kolkata{
+    display: flex;
+}
+.noida{
+    display: flex;
+}
+.hyderabad{
+    display: flex;
+}
+.pune{
+    display: flex;
+}
+.footer,footer
+{
+    background-color: #3c006b;
+   
+}
+
+.img-footer{
+    margin-left: 30px;
+     background-color: #3c006b;
+}
+.grid-footer{
+    display: grid;
+     grid-template-columns: auto auto ;
+         
+    height: 200px;
+    padding-top: 0;
+    -ms-grid-row-align: center;
+    align-self: center;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 24px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+
+}
+.item1{
+    display: block;
+}
+.item2
+{
+    display: block;
+}
+.term-condn{
+    display: flex;
+}
+
